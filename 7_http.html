@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>An Overview of http</title>
+    <style>
+    .container{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 18px;
+        margin: 40px 50px ;
+        border: 3px solid black;
+        border-radius: 10px;
+            
+    }
+    h3{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    </style>
+    
+    
+</head>
+<body>
+    <div class="container">
+
+        <h3>HTTP</h3>
+        <p>HTTP is a protocol for fetching resources such as HTML documents. It is the foundation of any data exchange on the Web 
+            and it is a client-server protocol, which meansrequests are initiated by the recipient, usually the Web browser.</p>
+    </div>
+
+
+
+
+
+
+   
+    </div>
+    <div class="container">
+        <h3>Basic Features of Https</h3>
+        <ul type="square">
+           
+            <li>HTTP is connectionless: The HTTP client, i.e., a browser initiates an HTTP request and after a request is made,
+                the client waits for the response. The server processes the request and sends a response back after which client
+                disconnect the connection
+            </li>
+            
+            <li>HTTP is media independent: It means, any type of data can be sent by HTTP as long as both the client and the server
+             know how to handle the data content. It is required for the client as well as the server to specify the content type using 
+            appropriate MIME-type.</li>
+            
+            <li>HTTP is stateless, but not sessionless: there is no link between two requests being successively carried out on the same 
+            connection. This immediately has the prospect of being problematic for users attempting to interact with certain pages coherently, 
+            for example, using e-commerce shopping baskets.</li>
+            
+        </ul>
+    </div>
+
+
+    <div class="container">
+
+        <h3>Client</h3>
+        <p>The HTTP client sends a request to the server in the form of a request method, URI, and protocol version, followed by a MIME-like 
+        message containing request modifiers, client information, and possible body content over a TCP/IP connection.</p>
+        </div>
+
+    <div class="container">
+        <h3>Server</h3>
+        <p>The HTTP server responds with a status line, including the message's protocol version and a success or error code, followed by a
+             MIME-like message containing server information, entity meta information, and possible entity-body content. </p>
+    </div>
+    
+    
+</body>
+</html>
